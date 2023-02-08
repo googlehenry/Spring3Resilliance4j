@@ -1,0 +1,7 @@
+resilience4j:
+  ratelimiter:
+    instances:
+      hello_test:
+        limitForPeriod: 4
+        limitRefreshPeriod: 60s
+        timeoutDuration: 250ms
